@@ -3,9 +3,11 @@
 
 ## UI Test Automation - A view from 10000 Feet over the surface
 
-> given ANY user interface (UI)
-> when test data are provided
-> then the test should be executed
+```gherkin
+given ANY user interface (UI)
+when test data are provided
+then the test should be executed
+```
 
 I believe test automation should be simple as described in the story above. In the same light, I envision "DrySel" (or any other test automation framework/tool) as an __abstract machine__, which takes test objects (objects which describe UI and Test Data) as input and produces test result. What happens inside the machine or how the machine achieves the automation remains opaque to its user. 
 
