@@ -9,11 +9,11 @@ when test data are provided
 then the test should be executed
 ```
 
-I believe test automation should be simple as described in the story above. In the same light, I envision "DrySel" (or any other test automation framework/tool) as an __abstract machine__, which takes test objects (objects which describe UI and Test Data) as input and produces test result. What happens inside the machine or how the machine achieves the automation remains opaque to its user. 
+I believe test automation should be as simple as described in the story above. In the same light, I envision "DrySel" (or any other test automation framework/tool) as an __abstract machine__, which takes test objects (objects which describe UI and Test Data) as inputs and produces test results. What happens inside the machine or how the machine achieves the automation should remain opaque to its user. 
 
 ## So what is DrySel?
 
-* __DrySel__ is a family of two test automation frameworks and tools, developed based on a very basic software engineering principle “Don’t Repeat Yourself”
+* __DrySel__ is a family of test automation frameworks and tools, developed based on a very basic software engineering principle of DRY - “Don’t Repeat Yourself”.
 
 * From the bottom to top __DrySel__ is comprised of ...
 1. [DrySelCore](https://github.com/orion-analytics/dryselcore) - the core framework, which realizes abstraction of the test automation and encapsulates “Selenium”. Now, you don’t need to write any Selenium-code! [DrySelCore.Demo](https://github.com/orion-analytics/dryselcore.demo) provides an example of how to user "DrySelCore".
