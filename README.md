@@ -9,7 +9,7 @@ when test data are provided
 then the test should be executed
 ```
 
-I believe test automation should be as simple as described in the story above. Careful reader may have noticed that the story does NOT mention anything about how testing should be performed. Instead, the story tell what should be done. In the same light, I envision "DrySel" (or any other test automation framework/tool for that matter) as an __abstract machine__, which takes test objects (objects which describe UI and Test Data) as inputs and produces test results. What happens inside the machine or how the machine achieves the automation should remain opaque to its user. 
+I believe test automation should be as simple as described in the story above. Careful reader may have noticed that the story does NOT mention anything about how testing should be performed. Instead, the story tells what should be done. In the same light, I envision "DrySel" (or any other test automation framework/tool for that matter) as an __abstract machine__, which takes test objects (objects which describe UI and Test Data) as inputs and produces test results. What happens inside the machine or how the machine achieves the automation should remain opaque to its user. 
 
 ## So what is DrySel?
 
